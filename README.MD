@@ -1,5 +1,3 @@
-## Hrushikesh Dhumal - Gradle 
-
 Ansible role which installs [Gradle](http://www.gradle.org/)
 
 #### Requirements & Dependencies
@@ -14,7 +12,7 @@ gradle_version: "2.1"             # The version of gradle to install
 gradle_install_path: "/usr/local"  # Path where to install gradle
 ```
 
-####Example
+#### Example
 
 ```yaml
 --- 
@@ -25,3 +23,6 @@ gradle_install_path: "/usr/local"  # Path where to install gradle
   roles:
     - gradle
 ```
+
+#### Author
+Hrushikesh Dhumal (hrushikesh.dhumal@gmail.com)
