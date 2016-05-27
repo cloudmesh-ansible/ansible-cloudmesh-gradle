@@ -8,7 +8,7 @@ Ansible role which installs [Gradle](http://www.gradle.org/)
 #### Variables
 
 ```yaml
-gradle_version: "2.1"             # The version of gradle to install
+gradle_version: "2.13"             # The version of gradle to install
 gradle_install_path: "/usr/local"  # Path where to install gradle
 ```
 
